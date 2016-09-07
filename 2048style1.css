@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+div,footer{
+    text-align: center;
+}
+
+footer{
+    font-size: 16px;
+    color: #74787c;
+}
+
+
+.butt{
+    height: 70px;
+    width: 70px;
+    background-color: #FC0;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 25px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
