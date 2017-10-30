@@ -45,85 +45,124 @@ div {
     border-radius: 3px;
 }
 
+.num {
+    text-align: center;
+    line-height: 98px;
+    font-weight: bold;
+    height: 98px;
+    width: 98px;
+    color: #766e66;
+    font-family: Menlo;
+}
+.bit1 {
+    font-size: 50px;
+}
+.bit2 {
+    font-size: 45px;
+}
+.bit3 {
+    font-size: 40px;
+}
+.bit4 {
+    font-size: 30px;
+}
+
 .position-1-1 {
     position: absolute;
     left: 20px;
     top: 20px;
+    transition: 0.1s;
 }
 .position-1-2 {
     position: absolute;
     left: 129.5px;
     top: 20px;
+    transition: 0.1s;
 }
+
 .position-1-3 {
     position: absolute;
     left: 239px;
     top: 20px;
+    transition: 0.1s;
 }
 .position-1-4 {
     position: absolute;
     left: 348.5px;
     top: 20px;
+    transition: 0.1s;
 }
 .position-2-1 {
     position: absolute;
     left: 20px;
     top: 129.5px;
+    transition: 0.1s;
 }
 .position-2-2 {
     position: absolute;
     left: 129.5px;
     top: 129.5px;
+    transition: 0.1s;
 }
 .position-2-3 {
     position: absolute;
     left: 239px;
     top: 129.5px;
+    transition: 0.1s;
 }
 .position-2-4 {
     position: absolute;
     left: 348.5px;
     top: 129.5px;
+    transition: 0.1s;
 }
 .position-3-1 {
     position: absolute;
     left: 20px;
     top: 239px;
+    transition: 0.1s;
 }
 .position-3-2 {
     position: absolute;
     left: 129.5px;
     top: 239px;
+    transition: 0.1s;
 }
 .position-3-3 {
     position: absolute;
     left: 239px;
     top: 239px;
+    transition: 0.1s;
 }
 .position-3-4 {
     position: absolute;
     left: 348.5px;
     top: 239px;
+    transition: 0.1s;
 }
 .position-4-1 {
     position: absolute;
     left: 20px;
     top: 348.5px;
+    transition: 0.1s;
 }
 .position-4-2 {
     position: absolute;
     left: 129.5px;
     top: 348.5px;
+    transition: 0.1s;
 }
 .position-4-3 {
     position: absolute;
     left: 239px;
     top: 348.5px;
+    transition: 0.1s;
 }
 .position-4-4 {
     position: absolute;
     left: 348.5px;
     top: 348.5px;
+    transition: 0.1s;
 }
 
 footer {

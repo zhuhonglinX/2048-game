@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="2048.css" type="text/css" />
-<script src="2048.js" type="text/javascript"></script>
 <!-- <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script> -->
 <title>2048 Game</title>
 </head>
@@ -39,17 +38,20 @@
 				<div class="cell"></div>
 			</div>
 		
-			<div class="tile">
-				<div class="tile-cell position-3-1"></div>
-				<div class="tile-cell position-1-2"></div>
-				<div class="tile-cell position-3-3"></div>
-				<div class="tile-cell position-4-4"></div>
+			<div class="tile" id="tile">
+				<div class="tile-cell position-1-2"><div class="num bit1">2</div></div>
+				<div class="tile-cell position-2-4"><div class="num bit1">2</div></div>
+				<!-- <div class="tile-cell position-3-3"><div class="num bit1">2</div></div> -->
+				<!-- <div class="tile-cell position-1-2"><div class="num bit2">16</div></div>
+				<div class="tile-cell position-3-3"><div class="num bit3">128</div></div>
+				<div class="tile-cell position-4-4"><div class="num bit4">2048</div></div>
 				<div class="tile-cell position-2-1"></div>
-				<div class="tile-cell position-2-2"></div>
+				<div class="tile-cell position-2-2"></div> -->
 			</div>
 		</div>
 	</div>
 
 	<footer>designed by zhuhonglin</footer>
 </body>
+<script src="2048.js" type="text/javascript"></script>
 </html>
